@@ -1,0 +1,160 @@
+
+.footer_copyrightContainer {
+    width: 100%;
+    height: auto;
+    background-color: #1d2731;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3.2rem 4.5%;
+  }
+  @media (min-width: 1024px) {
+    .footer_copyrightContainer {
+      padding: 1.2rem 3%;
+    }
+  }
+  @media (min-width: 1600px) {
+    .footer_copyrightContainer {
+      padding: 1.2rem 9%;
+    }
+  }
+  @media (min-width: 1024px) {
+    .footer_copyrightContainer {
+      height: 7rem;
+      justify-content: space-between;
+    }
+  }
+  .footer_copyrightContainer .socialIconContainer {
+    padding-bottom: 1.2rem;
+    width: 100%;
+  }
+  @media (min-width: 1024px) {
+    .footer_copyrightContainer .socialIconContainer {
+      padding-bottom: unset;
+      width: auto;
+    }
+  }
+  .footer_copyrightContainer .socialIconContainer .list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_copyrightContainer .socialIconContainer .list .items {
+    width: 2.8rem;
+    height: 2.8rem;
+    transition: all 0.25s linear;
+  }
+  .footer_copyrightContainer .socialIconContainer .list .items:not(:last-child) {
+    margin-right: 1.6rem;
+  }
+  .footer_copyrightContainer .socialIconContainer .list .items:hover a svg {
+    transform: scale(1.2);
+    background-color: #f1efff;
+  }
+  .footer_copyrightContainer .socialIconContainer .list .items:hover a .linkIn {
+    fill: #0077b5;
+  }
+  .footer_copyrightContainer .socialIconContainer .list .items:hover a .fb {
+    fill: #4267b2;
+  }
+  .footer_copyrightContainer .socialIconContainer .list .items:hover a .twiter {
+    fill: #1da1f2;
+  }
+  .footer_copyrightContainer .socialIconContainer .list .items:hover a .youtube {
+    fill: #ff0000;
+  }
+  .footer_copyrightContainer .socialIconContainer .list .items:hover a .pintrest {
+    fill: #e60023;
+  }
+  .footer_copyrightContainer .socialIconContainer .list .items a svg {
+    width: 2.8rem;
+    height: 2.8rem;
+    fill: #f1efff;
+    border: 1px solid #f1efff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 14px 26px -12px rgba(45, 45, 45, 0), 0 4px 23px 0px rgba(0, 0, 0, 0.12),
+      0 8px 10px -5px rgba(156, 39, 176, 0.2);
+    transition: all 0.25s linear;
+  }
+  .footer_copyrightContainer .coprrightContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (min-width: 1024px) {
+    .footer_copyrightContainer .coprrightContainer {
+      width: auto;
+    }
+  }
+  .footer_copyrightContainer .coprrightContainer .text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #f1efff;
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+  @media (min-width: 1024px) {
+    .footer_copyrightContainer .coprrightContainer .text {
+      order: unset;
+      width: auto;
+      text-align: unset;
+    }
+  }
+  .footer_copyrightContainer .coprrightContainer .linkContainer {
+    order: 1;
+    padding-bottom: 1.2rem;
+    width: 100%;
+  }
+  @media (min-width: 1024px) {
+    .footer_copyrightContainer .coprrightContainer .linkContainer {
+      order: unset;
+      margin-left: 1.2rem;
+      padding-bottom: unset;
+      width: auto;
+    }
+  }
+  .footer_copyrightContainer .coprrightContainer .linkContainer .list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_copyrightContainer .coprrightContainer .linkContainer .list .item {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #f1efff;
+    transition: all 0.25s linear;
+  }
+  .footer_copyrightContainer .coprrightContainer .linkContainer .list .item:not(:last-child) {
+    margin-right: 2rem;
+    position: relative;
+  }
+  .footer_copyrightContainer .coprrightContainer .linkContainer .list .item:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 11px;
+    background-color: #f1efff;
+    position: absolute;
+    right: -10px;
+    top: 5px;
+  }
+  .footer_copyrightContainer .coprrightContainer .linkContainer .list .item:hover {
+    color: #009999;
+  }
